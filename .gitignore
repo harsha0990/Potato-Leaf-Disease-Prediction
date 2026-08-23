@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Model outputs and weights
+models/*
+!models/.gitkeep
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+
+# Datasets and image collections (prevent large binary commits)
+data/dataset/*
+!data/dataset/.gitkeep
+data/test_images/*
+!data/test_images/.gitkeep
+data/Test/
+data/Train/
+data/Valid/
+data/raw/
+data/processed/
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Logs, downloads, and temporary folders
+*.log
+.plantvillage_download/
+scratch/
+tmp/
+temp/
