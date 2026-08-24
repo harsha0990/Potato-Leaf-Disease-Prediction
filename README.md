@@ -78,6 +78,6 @@ To prepare an exact three-class dataset that you have legally obtained:
 python scripts/setup_dataset.py --source /path/to/source_dataset
 ```
 
-See `data/README.md` for the dataset requirements and the PlantVillage reference setup.
+See 'data/README.md' for the dataset requirements and the PlantVillage reference setup.
 
 **Important:** The standard PlantVillage potato subset contains Early Blight, Late Blight and healthy classes. It should not be relabeled as leafroll virus or mosaic virus. The setup script therefore refuses to perform such relabeling.
