@@ -1,4 +1,4 @@
-# Potato Leaf Disease Classification
+## Potato Leaf Disease Classification
 
 An academic machine-learning project for early detection of viral diseases in potato plants from leaf images.
 
